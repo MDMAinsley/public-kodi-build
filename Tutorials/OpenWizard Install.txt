@@ -1,0 +1,106 @@
+# Accounts
+	- (Amazon**)[https://www.amazon.co.uk/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.co.uk%2F%3F_encoding%3DUTF8%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=gbflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0]
+	- (Trakt**)[https://trakt.tv/dashboard]
+	- (Real Debrid**)[https://real-debrid.com/devices]
+	- SIM (Vodafone)
+	- (Google)[https://accounts.google.com/lifecycle/steps/signup/name?dsh=S469973006:1707266928597814&flowEntry=SignUp&flowName=GlifWebSignIn&theme=glif&TL=AHNYTITr8hiRILhcy2ufY3N2Vh5li7xNOFmkGX4GwlFP_Tm5Xsf2zLyT_b8tqHSo]
+	- Windscribe/Proton (proton is free but slow)
+	(ProtonVPN**)[https://account.protonvpn.com/signup?plan=free&currency=EUR&ref=upsell]
+	(Windscribe*)[https://windscribe.com/signup]
+
+# Devices
+(Latest Kodi)[https://kodi.tv/download/]
+
+	## FireStick
+	- Downloader
+	- My Fire TV -> About -> Click Fire TV Stick x7 times
+	- My Fire TV -> Developer options
+	- Switch 'ON' ADB debugging
+	- Install Unknown Apps -> Downloader & allow downloader to install Apps
+	- Preferences -> Privacy Settings -> Turn 'OFF' Device Usage Data & Collect App Usage Data
+	- Usage Monitoring -> Turn Data Usage Monitoring 'OFF'
+	- Downloader App > Enter "firesticktricks.com/kapk" > Click Install
+	- Kodi > Install OpenWizard
+	- ES File Explorer
+	- Turn on 'Transfer Files Over PC'
+	- Note the FTP://192.168.X.XX you are presented with
+	- Install an FTP client (FileZilla for Windows)
+	- Copy Build ZIP to Android/data/org.xbmc.kodi/files/.kodi/My_Builds
+	- Install Build > Downloader App > Enter "269612" > Save > This is the clean.zip
+	- Install GUIFix > Downloader App > Enter "134975" > Save > This is the clean-guifix.zip
+	- Open Kodi and install build via OpenWizard
+	- Go back to ES File Explorer > Downloader App > Delete the two build files if you wish
+
+		### VPN Monitor Dot
+		- Downloader App > Enter "912985" > Install
+		- Open & Configure
+
+		### Auto-boot Kodi
+		- Downloader App > Enter "310962" > Install
+		- Enabled > On
+		- Launch when device wakes up? > On
+
+		### Clear OEM Apps
+		- Downloader App > Enter "21203" > Debloater Tool > Install
+		Remove Prime Video
+		- com.amazon.avod > Tick
+		- com.amazon.firebat > Tick
+		- com.amazon.device.messaging > Tick
+		- com.amazon.device.messaging.sdk.internal.library > Tick
+		- com.amazon.device.messaging.sdk.library > Tick
+		Block American Network Channels
+		- com.amazon.kso.blackbird > Tick
+		Remove Freevee
+		- com.amazon.imdb.tv.android.app > Tick
+		- com.imdb.livingroom.firetv
+		Remove Amazon Kids
+		- com.amazon.tahoe > Tick
+
+		CLICK THE ARROW AT THE TOP RIGHT, TICK "ALWAYS ALLOW", CLICK OK
+
+	## Build Files
+	- Get the build .zips from here; 
+	- clean-vX.X.X.zip		-	https://aftv.news/269612
+	- clean-vX.X.X-guifix.zip	-	https://aftv.news/134975
+	
+
+	## Android
+	- Kodi > Install OpenWizard
+	- Copy Build Files to Android/data/org.xbmc.kodi/files/.kodi/My_Builds
+	- Install Build
+
+	## IOS
+	- Kodi
+	- Extract Kodi.deb > Inside, extract data.tar > inside new folder should be Kodi.app > Create a new folder called 'Payload', Capital 'P'
+	- Drag the 'Kodi.app' folder inside the 'Payload' folder > Right-click Payload folder > Add to archieve > Select .zip format > Rename to 'kodi.ipa'
+	- Sideloadly
+	- Connect iPhone, make sure Sideloadly detects it > drag the 'kodi.ipa' into sideloadly > Sign-in with Apple ID > Press 'Start'
+	- Wait until Sideloadly says 'Done!' > on your iDevice, Settings > General > Profiles & Device Management > Trust your Dev Apple ID > Use Kodi 
+	- Resign every 7-Days or toggle sign before 7th day option!
+	- Kodi > Install OpenWizard
+	- Download Build.ZIP to phone
+	- Install Build
+
+	## Windows & Mac
+	- Kodi > Install OpenWizard
+	- Copy Build Files
+	- Install Build
+
+# Kodi
+	- System > Addons > Unknown Sources = On
+	- File Manager > Add Source > <None> = https://a4k-openproject.github.io/repository.openwizard/ > Name = openwizard
+	- Add-ons > OpenWizard > Build > Import Build
+	- Add-ons > Install from zip file > openwizard > 'repository.openwizard-X.X.X.zip'
+	- Add-ons > Install from repository > OpenWizardRepo > Program Add-ons > OpenWizard > Click 'Continue' on Pop-up
+	- Add-ons > Programs Add-ons > OpenWizard > Maintenance > Backup/Restore > Restore Local Build > mdmainsley_clean.zip
+	- Authorise the 1st Trakt pop-up, this is the Global Add-on
+	- Add-ons > Programs Add-ons > OpenWizard > Maintenance > Backup/Restore > Restore GUIFix > mdmainsley_guisettings_clean.zip
+	- Add-ons > Video Add-ons > Fen Light > Open > Tools > Settings > Accounts > Trakt > Authorise
+	- Add-ons > Video Add-ons > Fen Light > Open > Tools > Settings > Accounts > RealDebrid > Authorise
+	- Add-ons > Video Add-ons > Ghost > Open > Settings > Debrid > debrid service = enabled > Make sure 'debrid service' = Real-Debrid > Re-auth Real-Debrid
+	- Add-ons > Video Add-ons > The Loop > Open > Open ResolveURL Settings > Universal Resolvers 2 > Real Debrid > (Re)Authorise My Account
+
+	- Recently inputstream.adaptive / inputstream.ffmpegdirect / inputstream.rtmp have been failing across devices
+	- If missing from your device, go to https://mirrors.kodi.tv/addons/nexus/ and download the required files
+	- If possible, store them in the parent Kodi 'addons' folder, if not accessible, the users 'addons' folder will do
+

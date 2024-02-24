@@ -1,0 +1,67 @@
+- Player > Language > Preferred Audio/Subtitle Language = English
+- Media > General > Show Parent Folder Items = Off
+- Interface > Regional = United Kingdom
+- System > Display > Set Resolution/Use Fullscreen
+- System > Addons > Unknown Sources = On
+- System > Addons > Update Add-ons From = Any repository
+
+- File Manager > Add Source > <None> = https://a4k-openproject.github.io/repository.openwizard/ > Name = openwizard
+- File Manager > Add Source > <None> = https://tikipeter.github.io/packages/ > Name = fenlite
+- File Manager > Add Source > <None> = https://cocojoe2411.github.io/ > Name = coco
+- File Manager > Add Source > <None> = https://loopaddon.uk/loop19 > Name = loop
+- File Manager > Add Source > <None> = https://a4k-openproject.github.io/a4kSubtitles/packages > Name = subtitles
+
+- Add-ons > Install from zip file > openwizard > 'repository.openwizard-X.X.X.zip'
+- Add-ons > Install from zip file > coco > 'repository.cocoscrapers-X.X.X.zip'
+- Add-ons > Install from zip file > loop > 'repository.loop-X.X.X.zip'
+- Add-ons > Install from zip file > subtitles > 'a4kSubtitles-repository.zip'
+
+- Add-ons > Install from zip file > fenlite > 'plugin.video.fenlite-X.X.XX.zip'
+- Wait till you see 'FEN FIRST USE' pop-up, click continue on all
+- Add-ons > Install from repository > CocoScrapersRepo > Program Add-ons > CocoScrapers Module
+- Add-ons > Fen Lite > Tools > Providers > External Scrapers > Enable = On > Chosen Scrapers = CocoScrapers Module
+
+- Add-ons > Install from repository > OpenWizardRepo > Program Add-ons > OpenWizard > Click 'Continue' on Pop-up
+- Add-ons > Install from repository > a4kSubsRepo > Subtitles > a4kSubtitles
+- Add-ons > Install from repository > KodiRepo > Video Add-ons > Youtube
+- Add-ons > Install from repository > KodiRepo > Program Add-ons > Trakt
+
+- Add-ons > Install from repository > LoopRepo > Video Add-ons > The Loop
+- If when trying to install 'The Loop' you see, 'inputstream.adaptive could not be satisfied' do the following
+- Download correct for you device, inputstream files from here:
+- Those files are inputstream.adaptive, inputstream.ffmpegdirect and inputstream.rtmp
+- Find your main Kodi directory, place the extracted folders into the Kodi 'addons' folder
+- If IOS, drag into the users seperate 'addons' folder
+
+- Add-ons > Program Add-ons > Trakt > Settings;
+- Scrobbling > Scrobble Movies > On	
+- Scrobbling > Scrobble TV show episodes > On	 
+- Synchronize > Sync collection on library update or cleaning > On
+- Synchronize > Show Sync notifications > On
+- Synchronize > Sync Movie Playback Progress to Kodi > On
+- Synchronize > Sync Episode Playback Playback Progress to Kodi > On	
+- Rating > Rate Movie after watching > Off	
+- Rating > Rate TV show Episode after watching > Off
+
+- Settings > Player > Subtitles > Default Movie/TV Show Service > a4k Subtitles
+
+- Go into the settings of each video addon and change the following if required
+- Max Quality
+- Auto-Play
+- Include Pre-Release/CAM results
+- Next Episode Pop-up
+
+- Sign in to Trakt & RealDebrid
+
+- Installing TMDb, Skin Variables & Arctic Horizon 2
+- File manager > Add Source > Click '<None>' > Enter https://jurialmunkey.github.io/repository.jurialmunkey/ > Name this 'munkey'
+- *Skin Variables*
+- jurialmunkey Repository > Program Add-ons > Skin Variables > Install
+- Wait till you see 'Skin Variables Add-on installed'
+- *Arctic Horizon 2*
+- jurialmunkey Repository > Look and feel > Skin > Arctic Horizon 2 > Install > Ok
+- Wait till you see 'Arctic Horizon 2 Add-on installed' > Click NO on the pop-up asking to switch now
+
+- Now edit the widgets pointing to the apps!
+
+
