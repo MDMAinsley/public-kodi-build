@@ -2,13 +2,11 @@
 
 ## For Firesticks & Easy Downloading
 
-[LiveTV Favourites File]()
-
 [Clean](https://aftv.news/269612)
 [Clean-GUIfix](https://aftv.news/134975)
 
 [Swampz](https://aftv.news/326512)
 [Swampz-GUIfix](https://aftv.news/816449)
 
-[MDMAinsley]()
-[MDMAinsley-GUIfix]()
+[MDMAinsley](https://aftv.news/399785)
+[MDMAinsley-GUIfix](https://aftv.news/632815)
