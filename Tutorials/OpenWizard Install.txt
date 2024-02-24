@@ -100,6 +100,13 @@
 	- Add-ons > Video Add-ons > Ghost > Open > Settings > Debrid > debrid service = enabled > Make sure 'debrid service' = Real-Debrid > Re-auth Real-Debrid
 	- Add-ons > Video Add-ons > The Loop > Open > Open ResolveURL Settings > Universal Resolvers 2 > Real Debrid > (Re)Authorise My Account
 
+	# Make sure to re-auth
+	- Program Add-ons > Trakt
+	- Video Add-ons > Fen Light > Trakt
+	- Video Add-ons > Fen Light > RealDebrid
+	- Video Add-ons > Ghost > RealDebrid
+	- Video Add-ons > The Loop > RealDebrid
+
 	- Recently inputstream.adaptive / inputstream.ffmpegdirect / inputstream.rtmp have been failing across devices
 	- If missing from your device, go to https://mirrors.kodi.tv/addons/nexus/ and download the required files
 	- If possible, store them in the parent Kodi 'addons' folder, if not accessible, the users 'addons' folder will do
