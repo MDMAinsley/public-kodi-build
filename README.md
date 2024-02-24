@@ -2,8 +2,8 @@
 
 ## For Firesticks & Easy Downloading
 
-[Clean](https://aftv.news/269612)
-[Clean-GUIfix](https://aftv.news/134975)
+[Clean](https://aftv.news/375706)
+[Clean-GUIfix](https://aftv.news/455857)
 
 [Swampz](https://aftv.news/326512)
 [Swampz-GUIfix](https://aftv.news/816449)
