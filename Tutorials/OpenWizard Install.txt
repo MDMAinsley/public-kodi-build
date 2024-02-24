@@ -26,8 +26,8 @@
 	- Note the FTP://192.168.X.XX you are presented with
 	- Install an FTP client (FileZilla for Windows)
 	- Copy Build ZIP to Android/data/org.xbmc.kodi/files/.kodi/My_Builds
-	- Install Build > Downloader App > Enter "269612" > Save > This is the clean.zip
-	- Install GUIFix > Downloader App > Enter "134975" > Save > This is the clean-guifix.zip
+	- Install clean build > Downloader App > Enter "375706" > Save > This is the clean.zip
+	- Install clean-GUIfix > Downloader App > Enter "455857" > Save > This is the clean-guifix.zip
 	- Open Kodi and install build via OpenWizard
 	- Go back to ES File Explorer > Downloader App > Delete the two build files if you wish
 
@@ -60,8 +60,8 @@
 
 	## Build Files
 	- Get the build .zips from here; 
-	- clean-vX.X.X.zip		-	https://aftv.news/269612
-	- clean-vX.X.X-guifix.zip	-	https://aftv.news/134975
+	- clean.zip		-	https://aftv.news/375706
+	- clean-GUIfix.zip	-	https://aftv.news/455857
 	
 
 	## Android
