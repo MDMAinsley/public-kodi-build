@@ -10,6 +10,7 @@
 
 # Devices
 (Latest Kodi)[https://kodi.tv/download/]
+(Kodi v20.4)[https://aftv.news/759216]
 
 	## FireStick
 	- Downloader
